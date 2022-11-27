@@ -1,0 +1,59 @@
+·{
+    margin: 0;
+    padding: 0;
+}
+
+.fleyer_fondo{
+    background-color: rgb(216, 112, 147);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(70, 6, 27);
+}
+
+.texto_parrafo{
+    text-align: justify;
+    text-decoration: overline;
+    background-color: rgb(238, 232, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista_postres{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: brown;
+}
+
+#titulo_est_index{
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+}
+
+#subtitulo_index{
+    text-align: right;
+    text-decoration: line-through;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#listas_index{
+    text-decoration: none;
+    background-color: rgb(219, 162, 141);
+    border: 2px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(221, 160, 170);
+}
+
+aside{
+    background-color: rgb(165, 42, 83);
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
