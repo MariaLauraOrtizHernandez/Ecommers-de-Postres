@@ -1,59 +1,191 @@
-·{
+body{
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.fleyer_fondo{
-    background-color: rgb(216, 112, 147);
-    border: 2px;
+
+header{
+    width: 100%;
+    height: 120px;
+    position: static;
+    background-color: crimson;
+}
+
+.container_menu{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
     border-radius: 5px;
-    border-color: rgb(70, 6, 27);
+}
+
+/*menu*/
+
+.menu{
+    width: 60%;
+    margin: 20px 0px 20px 0px;
+    height: 70%;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+    flex: auto;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: brown;
+    text-decoration: none;
+    background-color: rgb(222, 138, 135);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+/*Seccion imagen*/
+
+.fleyer_fondo{
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/flyer.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.titulo_est_index{
+    color: white;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 220px 0px 0px 0px;
+    background-color: brown;
+    padding: 20px; 
 }
 
 .texto_parrafo{
-    text-align: justify;
-    text-decoration: overline;
-    background-color: rgb(238, 232, 170);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.lista_postres{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 20px;
+    width: 100%;
+    height: 200px;
     color: brown;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-#titulo_est_index{
-    color: rgb(248, 248, 248);
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: overline;
+.texto_parrafo:hover{
+    width: 100%;
+    height: 200px;
+    color: burlywood;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-#subtitulo_index{
-    text-align: right;
-    text-decoration: line-through;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+/*Galeria*/
+
+.container_info_gal{
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    padding-top: 50px;
 }
 
-#listas_index{
-    text-decoration: none;
-    background-color: rgb(219, 162, 141);
-    border: 2px;
-    border-radius: 5px;
+.subtitulo_index{
+    color: brown;
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-footer{
-    background-color: rgb(221, 160, 170);
+/*Imagenes de la galeria*/
+
+.container_galeria ul{
+    list-style: none;
+    display: flex;
 }
+.container_galeria ul li{
+    flex: auto;
+}
+
+.container_galeria ul li img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+/*Formulario*/
+
+.container_formulario{
+    background-color: rgb(182, 62, 62);
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.mapa{
+    margin: 100px;
+}
+
+.formulario_pedido{
+    margin: 80px;
+    color: white;
+}
+
+/*Aside*/
 
 aside{
-    background-color: rgb(165, 42, 83);
+    width: 100%;
+    height: 200px;
+    background-image: url(/images/aside.jpg);
+    background-size: cover;
 }
 
-a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+/*footer*/
+
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
 }
