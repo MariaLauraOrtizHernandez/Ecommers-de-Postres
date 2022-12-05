@@ -9,61 +9,105 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="/images/logo.png" alt="">
+        <div class="container_menu">
+            <div class="logo">
+                <img src="/images/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">¿Quienes somos?</a></li>
+                        <li><a href="">Paquetes</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><input type="Busqueda" id="Busqueda" placeholder="Busqueda">
+                            <label for="Busqueda" id="label_busqueda"></label>
+                        </li>
+                        <li><a href=""> Carrito</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Inicio</a>
-                </li>
-                <li>
-                    <a href="">¿Quienes somos?</a>
-                </li>
-                <li>
-                    <a href="">Paquetes</a>
-                </li>
-                <li>
-                    <a href="">Contacto</a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <main>
         <section>
             <div class="fleyer_fondo">
-                <img src="/images/flyer.jpg" alt="">
+                <h1 class="titulo_est_index">Los mejores postres ¡solo los tienes con nosotros!</h1>
             </div>
-            <h1 id="titulo_est_index">Los mejores postres ¡solo los tienes con nosotros!</h1>
-            <p class="texto_parrafo">Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan,
-            crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar 
-            todos los días. Cada uno de nuestros invitados nos inspira a llegar más lejos 
-            brindándoles un servicio de gran calidad y el toque de sabor a sus mañanas, tardes, meriendas y celebraciones.</p>
         </section>
     
         <section>
-            <h2 id="subtitulo_index">Contamos con una gran variedad de postres</h2>
-            <ul id="listas_index">
-                <li class="lista_postres">Pasteles para toda ocacion</li>
-                <li class="lista_postres">Cupcakes</li>
-                <li class="lista_postres">Tartas</li>
-                <li class="lista_postres">Galletas</li>
-            </ul>
+            <p class="texto_parrafo">Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan,
+                crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar 
+                 todos los días. Cada uno de nuestros invitados nos inspira a llegar más lejos 
+                brindándoles un servicio de gran calidad y el toque de sabor a sus mañanas, tardes, meriendas y celebraciones.</p>
         </section>
 
-        <audio src="">
-            <source src="/musica/Intro.mp4">
-        </audio>
+        <section>
+            <div class="container_info_gal">
+                <h2 class="subtitulo_index">Contamos con una gran variedad de postres</h2>
+                <div class="container_galeria">
+                    <ul>
+                        <li><img src="/images/pasteles-gril.jpg" alt=""></li>
+                        <li><img src="/images/cupcakes-gril.jpg" alt=""></li>
+                        <li><img src="/images/tarta-gril02.jpeg" alt=""></li>
+                        <li><img src="/images/galletas-gril02.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <aside>
-            <img src="/images/aside.jpg" alt="postres_temporada">
-        </aside>
+        <section>
+            <div class="container_formulario">
+
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7543.060916239193!2d-98.2052980651123!3d19.040401200000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0c2c70b0a27%3A0xe0c7279cafb8623e!2sFarmacia%20sanchez!5e0!3m2!1ses-419!2smx!4v1634852939188!5m2!1ses-419!2smx" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="formulario_pedido">
+                    <h3>Ordena aquí</h3>
+                    <p>Dejanos tus datos para poder ordenar tu pedido especial</p>
+        
+                    <table width="400">
+                        
+                        <tbody>
+                            <tr>
+                                <td width="92" ><p>Nombre:</p></td>
+                                <td width="293"><input name="textfield" type="text" required="required" id="textfield" placeholder="Por Apellidos" autocomplete="on" size="30" maxlength="50"></td>
+                            </tr>
+                            <tr>
+                                <td ><p>E-mail:</p></td>
+                                <td><input name="email" type="email" required="required" id="email" placeholder="sin caracteres especiales" size="30"></td>
+                            </tr>
+                            <tr>
+                                <td ><p>Telefono:</p></td>
+                                <td><input name="tel" type="tel" required="required" id="tel" size="30"></td>
+                            </tr>
+                            <tr>
+                                <td width="50" height="100" ><p>Comentario:</p></td>
+                                <td width="50" height="100"><textarea name="textarea" cols="32" rows="10" wrap="hard" id="textarea" placeholder="Escribe tu comentario"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td><input type="submit" name="submit" id="submit" value="Enviar"></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        
+        <aside></aside>
 
     </main>
     
     <footer>
-        <a href="">Avisos de privacidad</a>|<a href="">Todos los derechos reservados</a>
+        <a href="">Avisos de privacidad </a>|<a href=""> Todos los derechos reservados</a>
     </footer>
 </body>
 </html>
